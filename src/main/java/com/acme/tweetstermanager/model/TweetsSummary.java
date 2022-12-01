@@ -1,11 +1,12 @@
-package model.tweet;
+package com.acme.tweetstermanager.model;
 
-import model.TwitterPullTask;
+
+import com.acme.tweetstermanager.model.WorkerTask;
 
 import java.util.Map;
 
 public class TweetsSummary {
-    private TwitterPullTask pullTask;
+    private WorkerTask pullTask;
     private Map<String, Integer> wordsCountMap;
     private Integer tweetsCount;
     private boolean isLastBatch;
@@ -13,18 +14,18 @@ public class TweetsSummary {
     public TweetsSummary() {
     }
 
-    public TweetsSummary(TwitterPullTask pullTask, Map<String, Integer> wordsCountMap, Integer tweetsCount, boolean isLastBatch) {
+    public TweetsSummary(WorkerTask pullTask, Map<String, Integer> wordsCountMap, Integer tweetsCount, boolean isLastBatch) {
         this.pullTask = pullTask;
         this.wordsCountMap = wordsCountMap;
         this.tweetsCount = tweetsCount;
         this.isLastBatch = isLastBatch;
     }
 
-    public TwitterPullTask getPullTask() {
+    public WorkerTask getPullTask() {
         return pullTask;
     }
 
-    public void setPullTask(TwitterPullTask pullTask) {
+    public void setPullTask(WorkerTask pullTask) {
         this.pullTask = pullTask;
     }
 

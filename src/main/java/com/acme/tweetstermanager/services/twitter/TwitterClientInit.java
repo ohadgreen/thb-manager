@@ -17,10 +17,10 @@ import java.util.concurrent.BlockingQueue;
 
 @Slf4j
 public class TwitterClientInit {
-    static final String CONSUMER_KEY = "LYP3glNLYaj0mkERngGHfg5DY";
-    static final String CONSUMER_SECRET = "zVnr6zxCtSr4ZFHsRA1JZyka1Z0P65zRXJlA2vZJxbUp2gTzQM";
-    static final String TOKEN = "47083393-qT1d5WxXZe0VoftOtWsT6ba1M8yv0f2RLhNGiDuPN";
-    static final String SECRET = "IERIPBqjaxDx72RhhfuVMUo30opcKWydI0PAZQ4PQuC8y";
+    static final String CONSUMER_KEY = "";
+    static final String CONSUMER_SECRET = "";
+    static final String TOKEN = "";
+    static final String SECRET = "";
 
     private Client twitterClient;
     private final BlockingQueue queue;

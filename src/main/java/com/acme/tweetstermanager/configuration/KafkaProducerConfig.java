@@ -19,7 +19,7 @@ import java.util.Properties;
 @Configuration
 public class KafkaProducerConfig {
 
-    private final static String BOOTSTRAP_SERVER = "localhost:9092";
+    private final static String BOOTSTRAP_SERVER = "localhost:29092";
 
     @Bean
     public Map<String, Object> producerConfigs() {

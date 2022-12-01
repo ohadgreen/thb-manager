@@ -1,2 +1,3 @@
-package com.acme.tweetstermanager.controllers;public class ResultReportController {
+package com.acme.tweetstermanager.controllers;
+public class ResultReportController {
 }
